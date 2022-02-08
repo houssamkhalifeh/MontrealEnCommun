@@ -80,41 +80,42 @@ These principles are issued mainly from the best practices of the industry with 
 
 The goal of this document is to present the list of main principles of the architectures of the contributions to the MeC program.
 
-### Liste des principes
+### List of principles
 
 1. **Primacy of architectural principles**, the principles of architecture apply to all the solutions and all the projects in order to improve the synergies, the reproducability, the adaptability and its scalability within Montréal en commun and in other communities. Discrepancies should be justified and submitted for approval by the appropriate peers.
-2. **Integrated, modular and reusable architecture**, plan for the integration of systems during the design phases, and promote a highly decoupled modular approach supported by scalable connection interfaces allowing data isolation, while promoting the reuse of application modules developed.
-3. **Architecture intégrée, modulaire et réutilisable**, prévoir l’intégration de systèmes lors des phases de conception, et favoriser une approche modulaire fortement découplée soutenue par des interfaces de connexion évolutives permettant d’isoler les données, tout en favorisant la réutilisation des modules applicatifs développés.
-4. **Neutralité technologique**, les services sont conçus pour que les technologies soient interchangeables ; les architectures doivent prévoir des plans de sortie ou de continuité et observer les aspects de migrabilité et de portabilité.
-5. **Logiciels et matériels libres**, en vertu de la politique de logiciels libres de la Ville de Montréal, miser sur le développement et l’adoption de logiciels et de matériels sous licence ouverte, afin de limiter les risques de menottage technologique et maximiser la capacité d’évolution des solutions développées. Tous les projets développés dans le cadre de Montréal en Commun ont une vocation à être réplicables et proposer des solutions appelées à devenir  des communs, au service de la communauté montréalaise et ailleurs.
+2. **Integrated, modular and reusable architecture**, plan for the integration of systems during the design phases, and promote a highly decoupled modular approach supported by scalable connection interfaces allowing data isolation, while promoting the reuse of developed application modules.
+3. **Technological neutrality**, the services are designed so that the technologies are interchangeable; the architectures must provide exit or continuity plans and observe the aspects of migrability and portability.
+4. **Free software and hardware**, under the City of Montreal's free software policy, focus on the development and adoption of software and hardware under open license, in order to limit the risks of technological handcuffing and maximize the scalability of the developed solutions. All the projects developed within the framework of Montréal en Commun have a vocation to be replicable and to propose solutions that will become common, at the service of the Montreal community and elsewhere.
+5. **Data: a strategic asset to be protected and valued**, data is a valuable asset that the Montréal en Commun program aspires to make accessible through its open data initiative. The practice of this principle aims in particular to:
+    - Optimize categorization and facilitate discovery and accessibility to data.
+    - Maintain data quality, normalization, sanitization and aggregation.
+    - Respect the principles of the Data Charter.
 
-5. **Les données : un actif stratégique à protéger et valoriser**, les données sont un bien qui a de la valeur que le programme Montréal en Commun aspire à rendre accessible dans son initiative de données ouvertes. La pratique de ce principe vise en particulier à :
-    - Optimiser la catégorisation et faciliter la découverte et l’accessibilité aux données.
-    - Maintenir la qualité des données, normalisation, sanitization et agrégation.
-    - Respecter les principes de la Charte des données.
+6. **Standardization**, adopt existing business standards, particularly for APIs and data exchanges, and contribute to relevant standardization efforts. Also follow development methodologies that observe in particular business standards such as unit testing, code review and automated processes.
 
-6. **Standardisation**, adopter les standards métiers existants, notamment pour les APIs et les échanges de données, et contribuer aux efforts de standardisation pertinents. Suivre aussi des méthodologies de développement qui observent en particulier les standards métiers comme les essais unitaires, révision du code et processus automatisés.
+7. **Common digital identity**, ensure consistency in the identification logic, and favor single authentication (SSO for Single sign-on) to make the user experience fluid and simple.
 
-7. **Identité numérique commune**, assurer une cohérence dans la logique d’identification, et privilégier l’authentification unique (SSO pour Single sign-on) pour rendre l’expérience utilisateur fluide et simple.
+8. **Security standards**, each service must manage its own security and ensure that the defect of a service does not jeopardize the other systems. Apply OWASP security principles and stay informed of vulnerability logs and adopt mitigation best practices.
 
-8. **Standards de sécurité**, chaque service doit gérer sa propre sécurité et s’assurer que la défectuosité d’un service ne mette pas en péril les autres systèmes. Appliquer les principes de sécurité de l’OWASP et rester informé des registres de vulnérabilités et adopter les meilleures pratiques de mitigation.
+9. **Identification, assessment and mitigation of risks**, the deliverables must contain a clear documentation of the risks with the mitigation measures and residual risks.
 
-9. **Identification, évaluation et atténuation des risques**, les livrables doivent contenir une documentation claire des risques avec les mesures de mitigation et risques résiduelles.
+10. **Accessibility and user-friendliness**, promote the adoption of market standards and access to Internet and mobile solutions. Systematize the use of universal access standards: WCAG 2.0 - ISO/IEC 40500:2012 (AA or AAA level).
 
-10. **Accessibilité et convivialité**, favoriser l’adoption des standards du marché et l’accès des solutions Internet et mobiles. Systématiser l’utilisation des normes d’accès universel: WCAG 2.0 - ISO/IEC 40500:2012 (niveau AA ou AAA).
+**Social acceptability and ethical and responsible use of data**, as part of the work with the CIRAIG research center, the City of Montreal has defined a series of guiding principles aimed at guaranteeing respect for the individual in the use of technologies . These principles will be followed and will be the subject of official policies and commitments, such as the Cities for digital rights declarations and the Montreal Declaration for the responsible development of artificial intelligence. <br />
+Data contributes to improving urban living environments and informing collective and individual decision-making, but must be used wisely, taking privacy protection parameters into account.
 
 11. **Acceptabilité sociale et utilisation des données éthique et responsable**, dans le cadre des travaux avec le centre de recherche CIRAIG, la Ville de Montréal a défini une série de principes directeurs visant à garantir le respect de la personne dans les usages des technologies. Ces principes seront suivis et feront l'objet de politiques officielles et d’engagements, tels que les déclarations Cities for digital rights et la Déclaration de Montréal pour un développement responsable de l’intelligence artificielle. <br />
 La donnée contribue à améliorer les milieux de vie urbains et à éclairer les prises de décisions collectives et individuelles mais doit être utilisée à bon escient en prenant en compte les paramètres de protection de la vie privée
 
-12. **Conformité législative**, les projets du programme doivent être conformes aux règlements, lois et politiques établies.
+12. **Legislative Compliance**, program projects must comply with established regulations, laws and policies.
 
-13. **Inclusion numérique**, le LIUM reconnaît et travaille à diminuer la fracture numérique. Les projets de Montréal en commun doivent aussi reconnaître la fracture numérique car ils s’adressent à des organismes communautaires et des personnes défavorisées et encourage les partenaires à appliquer une démarche ADS+, soit l’analyse différenciée selon les sexes et autres facteurs pour s’assurer que les solutions technologiques ne créent pas d’injustice.
+13. **Digital inclusion**, LIUM recognizes and works to reduce the digital divide. Montréal en commun projects must also recognize the digital divide because they are aimed at community organizations and disadvantaged people and encourage partners to apply an ADS+ approach, i.e. analysis differentiated according to gender and other factors to ensure that technological solutions do not create injustice.
 
-14. **Écoconception des services et produits**, Les logiciels et services du programme Montréal en commun respectent les principes de développement durable et les contraintes environnementales dès les premières étapes de conception fonctionnelle, graphique, ergonomique, technique, etc. Une priorité est donnée en particulier à la réduction des ressources consommées tout au long du cycle de vie des services ainsi qu’à l’infrastructure matérielle sous-jacente. La pratique du principe de l’écoconception se matérialise en :  
-    - Une vision stratégique, conforme à la vision de Montréal en commun qui gouverne l'intention et l'aspect organisationnel.
-    - Une intégration opérationnelle au cours de la conception, réalisation et consommation des services.
+14. **Eco-design of services and products**, The software and services of the Montréal en commun program respect the principles of sustainable development and environmental constraints from the first stages of functional, graphic, ergonomic, technical design, etc. Priority is given in particular to reducing the resources consumed throughout the life cycle of the services as well as to the underlying material infrastructure. The practice of the principle of eco-design materializes in:
+    - A strategic vision, consistent with the vision of Montréal en commun, which governs the intention and the organizational aspect.
+    - Operational integration during the design, production and consumption of services.
 
-15. **Standards de gestion opérationnelle des solutions**, Assurer l’autonomie des partenaires dans la gestion opérationnelle des composants. Favoriser les plateformes infonuagiques et respecter les contraintes non-fonctionnelles (continuité, performance, journalisation, ..)
+15. **Standards for the operational management of solutions**, Ensure the autonomy of partners in the operational management of components. Favor cloud computing platforms and respect non-functional constraints (continuity, performance, logging, etc.)
 
 ### Build
 
