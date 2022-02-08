@@ -101,11 +101,8 @@ The goal of this document is to present the list of main principles of the archi
 
 10. **Accessibility and user-friendliness**, promote the adoption of market standards and access to Internet and mobile solutions. Systematize the use of universal access standards: WCAG 2.0 - ISO/IEC 40500:2012 (AA or AAA level).
 
-**Social acceptability and ethical and responsible use of data**, as part of the work with the CIRAIG research center, the City of Montreal has defined a series of guiding principles aimed at guaranteeing respect for the individual in the use of technologies . These principles will be followed and will be the subject of official policies and commitments, such as the Cities for digital rights declarations and the Montreal Declaration for the responsible development of artificial intelligence. <br />
+11. **Social acceptability and ethical and responsible use of data**, as part of the work with the CIRAIG research center, the City of Montreal has defined a series of guiding principles aimed at guaranteeing respect for the individual in the use of technologies . These principles will be followed and will be the subject of official policies and commitments, such as the Cities for digital rights declarations and the Montreal Declaration for the responsible development of artificial intelligence. <br />
 Data contributes to improving urban living environments and informing collective and individual decision-making, but must be used wisely, taking privacy protection parameters into account.
-
-11. **Acceptabilité sociale et utilisation des données éthique et responsable**, dans le cadre des travaux avec le centre de recherche CIRAIG, la Ville de Montréal a défini une série de principes directeurs visant à garantir le respect de la personne dans les usages des technologies. Ces principes seront suivis et feront l'objet de politiques officielles et d’engagements, tels que les déclarations Cities for digital rights et la Déclaration de Montréal pour un développement responsable de l’intelligence artificielle. <br />
-La donnée contribue à améliorer les milieux de vie urbains et à éclairer les prises de décisions collectives et individuelles mais doit être utilisée à bon escient en prenant en compte les paramètres de protection de la vie privée
 
 12. **Legislative Compliance**, program projects must comply with established regulations, laws and policies.
 
@@ -117,21 +114,21 @@ La donnée contribue à améliorer les milieux de vie urbains et à éclairer le
 
 15. **Standards for the operational management of solutions**, Ensure the autonomy of partners in the operational management of components. Favor cloud computing platforms and respect non-functional constraints (continuity, performance, logging, etc.)
 
-### Build
-
-### Installation
-
-### Testing
-
-### License
-
 The source code of this project is distributed under the [MIT License](LICENSE).
 
 ### Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md#english-version).
 
+### License and Intellectual Property
+
+The source code for this project is released under the [MIT License](LICENSE).
+
 ### Code of Conduct
 
 Participation in this poject is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
 
+### To Do
+-Build
+-Installation
+-Testing
